@@ -1,0 +1,46 @@
+{
+  "name": "@hippy/rmc-list-view",
+  "version": "1.0.0",
+  "description": "m-list-view ui component for hippy-react",
+  "keywords": [
+    "react",
+    "react-component",
+    "react-mobile-list-view",
+    "m-list-view"
+  ],
+  "homepage": "https://github.com/react-component/m-list-view",
+  "author": "hualei5280@gmail.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/react-component/m-list-view.git"
+  },
+  "bugs": {
+    "url": "https://github.com/react-component/m-list-view/issues"
+  },
+  "files": [
+    "lib",
+    "es",
+    "assets/*.css"
+  ],
+  "license": "MIT",
+  "main": "./lib/index",
+  "module": "./es/index",
+  "config": {
+    "port": 8999
+  },
+  "dependencies": {
+    "babel-runtime": "6.x",
+    "classnames": "^2.2.5",
+    "fbjs": "^3.0.4",
+    "prop-types": "^15.5.8",
+    "warning": "^3.0.0",
+    "zscroller": "~0.4.0"
+  },
+  "devDependencies": {
+    "react": "15.x",
+    "react-dom": "15.x",
+    "react-sticky": "^5.0.2",
+    "react-test-renderer": "15.x",
+    "rmc-pull-to-refresh": "^1.0.0-alpha.0"
+  }
+}
